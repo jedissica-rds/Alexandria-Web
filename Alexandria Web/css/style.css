@@ -20,6 +20,7 @@ li, a, button{
     align-items: center;
     padding-top: 1.5%;
     width: 100%;
+    background-color: #856DDA;
     position: fixed;
     top: 0;
 }
@@ -54,7 +55,7 @@ li, a, button{
 }
 
 .nav__links li a:hover{
-    color: #0088a9;
+    font-weight: bolder;
 }
 
 button{
@@ -67,10 +68,6 @@ button{
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-}
-
-button:hover{
-    background-color: rgba(0, 136, 169, 1);
 }
 
 .banner{
