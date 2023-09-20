@@ -1,8 +1,4 @@
-
-$(window).scroll(function() {
-  if ($(window).scrollTop() <= 10) {
-     $('.navbar').css('background', 'transparent');
-    } else {
-      $('.navbar').css('background', '##856DDA');
-}
-});
+window.addEventListener("scroll", function(){
+  let header = document.querySelector('.header')
+  header.classList.toggle('rolagem', window.scrollY > 100)
+})
